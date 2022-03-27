@@ -4,7 +4,7 @@ public class Regra {
     double valorLocacao = 100.00;
     String multa = "nao"; // sim ou nao
     double valorAvaria = 5.00;
-    double total = 0.00;
+    double total = 100.00;
 
     void calcularLocacao() {
         total = Double.valueOf(quantDias) * valorLocacao;
